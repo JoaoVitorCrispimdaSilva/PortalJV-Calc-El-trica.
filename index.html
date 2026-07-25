@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portal de Ferramentas Para Calculos de instalações Elétricas</title>
+    <meta name="description" content="Ferramentas gratuitas para auxiliar no planejamento de instalações elétricas residenciais, incluindo cálculo de área construída e carga instalada.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#17b96c">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4190987325045849" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" sizes="512x512" href="midia/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="midia/android-chrome-512x512.png">
+</head>
+<body>
+    <header>
+        <button class="logo-link" type="button" data-aba="home" aria-label="Ir para a página inicial">
+            <img src="midia/logo_completa.png" alt="Portal JV - Cálculos Elétricos">
+        </button>
+        <h1>⚡ JV Engenharia Elétrica</h1>
+        <p>Portal de ferramentas elétricas</p>
+        <nav class="abas" aria-label="Páginas do portal">
+            <button class="aba ativa" type="button" data-aba="home">Início</button>
+            <button class="aba" type="button" data-aba="carga">Carga instalada</button>
+            <button class="aba" type="button" data-aba="area">Área construída</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="painel-home" class="painel ativo" aria-labelledby="titulo-home">
+            <div class="home-container">
+                <section class="hero-home">
+                    <p class="sobretitulo">Planejamento elétrico com mais clareza</p>
+                    <h2 id="titulo-home">Ferramentas práticas para projetos elétricos residenciais</h2>
+                    <p>Este portal reúne calculadoras para ajudar na organização inicial de projetos elétricos. Use as ferramentas para estimar a área construída, a carga instalada e os dados necessários para o seu projeto.</p>
+                    <div class="hero-acoes">
+                        <button type="button" data-aba="carga">Calcular carga instalada</button>
+                        <button class="botao-claro" type="button" data-aba="area">Calcular área construída</button>
+                    </div>
+                    <button class="link-sobre" type="button" data-aba="sobre">Conheça o portal e seu propósito</button>
+                </section>
+
+                <section class="secao-home" aria-labelledby="titulo-ferramentas">
+                    <div class="titulo-secao">
+                        <p class="sobretitulo">Ferramentas disponíveis</p>
+                        <h2 id="titulo-ferramentas">Por onde começar?</h2>
+                    </div>
+                    <div class="cards-home">
+                        <article class="card ferramenta-card">
+                            <span class="icone-ferramenta">01</span>
+                            <h3>Área construída</h3>
+                            <p>Some a área interna dos cômodos retangulares da edificação a partir das medidas de cada ambiente.</p>
+                            <button class="link-ferramenta" type="button" data-aba="area">Abrir ferramenta →</button>
+                        </article>
+                        <article class="card ferramenta-card">
+                            <span class="icone-ferramenta">02</span>
+                            <h3>Carga instalada</h3>
+                            <p>Estime as potências de iluminação, TUGs e TUEs e consulte a categoria de fornecimento aplicável.</p>
+                            <button class="link-ferramenta" type="button" data-aba="carga">Abrir ferramenta →</button>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="secao-home glossario" aria-labelledby="titulo-glossario">
+                    <div class="titulo-secao">
+                        <p class="sobretitulo">Entenda antes de calcular</p>
+                        <h2 id="titulo-glossario">Glossário para iniciantes</h2>
+                        <p>Explicações simples dos termos usados nas calculadoras.</p>
+                    </div>
+                    <div class="itens-glossario">
+                        <article><h3>Área construída</h3><p>É a soma das áreas internas dos cômodos da residência. Nesta ferramenta, cada área é calculada multiplicando comprimento por largura.</p></article>
+                        <article><h3>m² (metro quadrado)</h3><p>É a unidade usada para medir área. Um ambiente de 3 m por 4 m, por exemplo, possui 12 m².</p></article>
+                        <article><h3>TUG</h3><p>Tomada de Uso Geral: tomada comum usada para ligar aparelhos do dia a dia, como televisão, carregador ou ventilador.</p></article>
+                        <article><h3>TUE</h3><p>Tomada de Uso Específico: ponto destinado a um equipamento definido, como chuveiro, ar-condicionado, forno elétrico ou bomba.</p></article>
+                        <article><h3>Carga instalada</h3><p>É a soma das potências previstas para iluminação, tomadas de uso geral e equipamentos de uso específico.</p></article>
+                        <article><h3>Disjuntor geral</h3><p>É o dispositivo de proteção principal da instalação. Ele desarma em situações de sobrecarga ou curto-circuito.</p></article>
+                        <article><h3>Monofásico e trifásico</h3><p>São tipos de fornecimento de energia. A escolha depende da potência necessária para atender a edificação.</p></article>
+                        <article><h3>Ramal de entrada</h3><p>É o conjunto de condutores que leva a energia do ponto de entrega até a medição e a instalação do imóvel.</p></article>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section id="painel-sobre" class="painel" aria-labelledby="titulo-sobre">
+            <div class="pagina-container">
+                <article class="card pagina-conteudo">
+                    <p class="sobretitulo">Sobre o portal</p>
+                    <h2 id="titulo-sobre">JV Engenharia Elétrica</h2>
+                    <p>Este portal foi criado para tornar etapas iniciais do planejamento elétrico mais claras e acessíveis. Aqui você encontra ferramentas para calcular área construída e estimar carga instalada em edificações residenciais.</p>
+                    <p>Nosso objetivo é apresentar informações organizadas, linguagem simples e referências úteis para estudantes, proprietários e profissionais da área elétrica.</p>
+                    <h3>Uso responsável</h3>
+                    <p>As calculadoras oferecem estimativas para apoio ao planejamento. Um projeto elétrico deve ser elaborado, conferido e executado por profissional habilitado, considerando as características reais da edificação e as normas aplicáveis.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="painel-contato" class="painel" aria-labelledby="titulo-contato">
+            <div class="pagina-container">
+                <article class="card pagina-conteudo">
+                    <p class="sobretitulo">Fale conosco</p>
+                    <h2 id="titulo-contato">Contato</h2>
+                    <p>Para dúvidas, sugestões de novas ferramentas ou informações sobre o portal, envie um e-mail.</p>
+                    <a class="email-contato" href="mailto:joaovitorcrispim007@gmail.com">joaovitorcrispim007@gmail.com</a>
+                    <p class="texto-menor">Respondemos assim que possível. Não envie senhas, dados bancários ou outras informações sensíveis por e-mail.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="painel-privacidade" class="painel" aria-labelledby="titulo-privacidade">
+            <div class="pagina-container">
+                <article class="card pagina-conteudo">
+                    <p class="sobretitulo">Informações legais</p>
+                    <h2 id="titulo-privacidade">Política de Privacidade</h2>
+                    <p>Esta política explica de forma simples como as informações podem ser tratadas durante o uso deste portal.</p>
+                    <h3>Dados informados pelo visitante</h3>
+                    <p>As calculadoras funcionam diretamente no seu navegador: os valores digitados não são enviados por este site. Caso você entre em contato por e-mail, os dados que enviar serão usados apenas para responder à sua mensagem.</p>
+                    <h3>Cookies e publicidade</h3>
+                    <p>Cookies são pequenos arquivos usados para lembrar preferências e medir o funcionamento de um site. Caso anúncios do Google sejam exibidos futuramente, o Google e outros parceiros poderão usar cookies para personalizar anúncios com base em visitas anteriores deste ou de outros sites.</p>
+                    <p>Você pode gerenciar preferências de anúncios em <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer">Configurações de anúncios do Google</a> e controlar cookies nas configurações do seu navegador.</p>
+                    <h3>Links externos</h3>
+                    <p>Este portal pode indicar páginas de terceiros, como normas e documentos técnicos. Cada site externo possui suas próprias práticas de privacidade.</p>
+                    <h3>Atualizações</h3>
+                    <p>Esta política poderá ser atualizada quando o portal ganhar novos recursos, como formulários, métricas de acesso ou publicidade.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="painel-termos" class="painel" aria-labelledby="titulo-termos">
+            <div class="pagina-container">
+                <article class="card pagina-conteudo">
+                    <p class="sobretitulo">Informações legais</p>
+                    <h2 id="titulo-termos">Termos de Uso</h2>
+                    <p>Ao utilizar este portal, você concorda com os termos abaixo.</p>
+                    <h3>Finalidade das ferramentas</h3>
+                    <p>Os cálculos são informativos e servem como apoio inicial. Eles não substituem projeto, vistoria, dimensionamento, responsabilidade técnica ou aprovação por órgão competente.</p>
+                    <h3>Responsabilidade profissional</h3>
+                    <p>Instalações elétricas envolvem riscos. Antes de executar qualquer serviço, consulte um profissional legalmente habilitado e siga as normas técnicas e regras da distribuidora de energia da sua região.</p>
+                    <h3>Conteúdo e disponibilidade</h3>
+                    <p>Podemos atualizar ferramentas e conteúdos para melhorar o portal. Embora busquemos manter as informações corretas, não garantimos que todo resultado seja adequado a cada situação específica.</p>
+                    <h3>Uso do conteúdo</h3>
+                    <p>É permitido usar as ferramentas para fins pessoais e profissionais lícitos. Não é permitido utilizar o portal de forma que prejudique seu funcionamento ou infrinja direitos de terceiros.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="painel-carga" class="painel" aria-labelledby="titulo-carga">
+            <div class="container">
+                <section class="card">
+                    <h2 id="titulo-carga">Dados do Projeto</h2>
+                    <p class="aviso-norma">Os dados desta ferramenta são calculados de acordo com a <a href="https://acessodigital.neoenergia.com/documents/d/rn/dis-nor-030-rev07?download=true" target="_blank" rel="noopener noreferrer">DIS-NOR-030 — Fornecimento de Energia Elétrica em Tensão Secundária de Distribuição a Edificações Individuais (Rev. 07)</a>, da Neoenergia.</p>
+                    <div class="campo">
+                        <label for="area">Área Construída (m²)</label>
+                        <input type="number" id="area" min="0" step="any" placeholder="Ex.: 120">
+                    </div>
+                    <div class="campo">
+                        <label for="comodos">Número de Cômodos</label>
+                        <input type="number" id="comodos" min="1" step="1" placeholder="Ex.: 8">
+                    </div>
+                    <div class="campo">
+                        <label for="tue">Potência Total das TUEs (W)</label>
+                        <input type="number" id="tue" min="0" step="any" placeholder="Ex.: 5500">
+                    </div>
+                    <button id="calcular" type="button">Calcular</button>
+                </section>
+
+                <section class="card resultado">
+                    <h2>Resultados</h2>
+                    <div class="linha"><span>Tomadas</span><strong id="tomadas">-</strong></div>
+                    <div class="linha"><span>Potência da Iluminação</span><strong id="iluminacao">-</strong></div>
+                    <div class="linha"><span>Potência das TUGs</span><strong id="tug">-</strong></div>
+                    <div class="linha"><span>Potência das TUEs</span><strong id="tueResultado">-</strong></div>
+                    <div class="linha"><span>Carga Instalada</span><strong id="carga">-</strong></div>
+                    <div class="linha"><span>Categoria</span><strong id="categoria">-</strong></div>
+                    <div class="linha"><span>Sistema</span><strong id="sistema">-</strong></div>
+                    <div class="linha"><span>Disjuntor Geral</span><strong id="disjuntor">-</strong></div>
+                    <div class="linha"><span>Ramal de Conexão</span><strong id="ramalConexao">-</strong></div>
+                    <div class="linha"><span>Ramal de Entrada</span><strong id="ramalEntrada">-</strong></div>
+                    <div class="linha"><span>Ramal de Distribuição</span><strong id="ramalDistribuicao">-</strong></div>
+                </section>
+            </div>
+        </section>
+
+        <section id="painel-area" class="painel" aria-labelledby="titulo-area">
+            <div class="area-container">
+                <section class="card area-card">
+                    <div class="area-intro">
+                        <div>
+                            <h2 id="titulo-area">Cálculo de Área Construída</h2>
+                            <p>Informe as medidas internas de cada cômodo retangular. Cômodos vazios não entram no total.</p>
+                        </div>
+                        <div class="total-area" aria-live="polite">
+                            <span>Área construída</span>
+                            <strong id="areaConstruida">0,00 m²</strong>
+                        </div>
+                    </div>
+                    <p class="observacao">Considere somente a metragem interna da residência, desprezando as paredes.</p>
+                    <div id="listaComodos" class="lista-comodos"></div>
+                    <div class="acoes-area">
+                        <button id="calcularArea" type="button">Calcular área construída</button>
+                        <button id="limparArea" class="botao-secundario" type="button">Limpar medidas</button>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por JV Engenharia Elétrica</p>
+        <nav class="links-rodape" aria-label="Informações do portal">
+            <button type="button" data-aba="sobre">Sobre</button>
+            <button type="button" data-aba="contato">Contato</button>
+            <button type="button" data-aba="privacidade">Política de Privacidade</button>
+            <button type="button" data-aba="termos">Termos de Uso</button>
+        </nav>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
